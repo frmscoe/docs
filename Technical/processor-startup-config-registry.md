@@ -35,3 +35,8 @@ These environment variables are used across processors in the system. The specif
 | `PSEUDONYMS_DATABASE_USER` | Username for accessing the pseudonyms database | `root` |
 | `PSEUDONYMS_DATABASE_URL` | URL for accessing the pseudonyms database | `http://localhost:8529` |
 | `PSEUDONYMS_DATABASE_PASSWORD` | Password for accessing the pseudonyms database | `pseudoPass456` |
+| `NETWORK_MAP_DATABASE_CERT_PATH`      | Certificate path for network map database |                                           |
+| `NETWORK_MAP_DATABASE_URL`           | URL for accessing network map database              |   `http://localhost:8529`                                           |
+| `NETWORK_MAP_DATABASE_USER`          | Username for accessing network map database             | `root`                                             |
+| `NETWORK_MAP_DATABASE_PASSWORD`      | Password for accessing network map database         | `pseudonyms`                                            |
+| `NETWORK_MAP_DATABASE`               | Name of the network map                  | `networkMap`                                       |
